@@ -4,6 +4,7 @@
         <arguments>
             <argument name="headerProviderList" xsi:type="array">
                 <item name="CorsAllowOrigin" xsi:type="object">SplashLab\CorsRequests\Response\HeaderProvider\AllowOriginHeaderProvider</item>
+                <item name="CorsAllowHeaders" xsi:type="object">SplashLab\CorsRequests\Response\HeaderProvider\AllowHeadersHeaderProvider</item>
             </argument>
         </arguments>
     </type>

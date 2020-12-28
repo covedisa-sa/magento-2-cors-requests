@@ -105,6 +105,7 @@ class CorsHeadersPlugin
             if ((int)$this->getMaxAge() > 0) {
                 $this->response->setHeader('Access-Control-Max-Age', $this->getMaxAge(), true);
             }
+            $this->response->setHeader('Access-Control-Allow-Headers', '*', true);
         }
     }
 

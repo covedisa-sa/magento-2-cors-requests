@@ -30,6 +30,11 @@
                     <label>CORS Request Max Age</label>
                     <comment>Enables Access-Control-Max-Age response header for CORS requests (max age in seconds)</comment>
                 </field>
+                <field id="allow_headers" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Access-Control-Allow-Headers</label>
+                    <comment>Enables Access-Control-Allow-Headers response header for CORS requests</comment>
+                </field>
             </group>
         </section>
     </system>
